@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Дедюхін Дмитро, Lab5, ІК-23">
+    <meta name="description" content="Лабораторна 5">
+    <title>Дедюхін Д.Є., Група ІК-23</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+
+<body>
+    <div class="container">
+        
+        <form id="infoForm">
+            <h2>Форма для заповнення</h2>
+
+            <input type="text" id="name" placeholder="ПІБ (Прізвище І.О.):" required><br><br>
+    
+            <input type="text" id="variant" placeholder="Варіант (01):" required><br><br>
+    
+            <input type="text" id="phone" placeholder="Телефон (0503213465):" required><br><br>
+    
+            <input type="text" id="faculty" placeholder="Факультет (ФІОТ):" required><br><br>
+    
+            <input type="text" id="address" placeholder="Адреса (м. Київ):" required><br><br>
+    
+            <button type="button" onclick="validateForm()">Відправити</button>
+        </form>
+
+        <div class="table">
+            <input type="color" id="colorPicker" style="display: block; margin: 10px auto;">
+            <table id="myTable"></table>
+        </div>
+    </div>
+
+    <script src="./script1.js"></script>
+    <script src="./script2.js"></script>
+</body>
+
+</html>
